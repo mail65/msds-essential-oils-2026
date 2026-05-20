@@ -9,17 +9,15 @@
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; background: #f5f5f5; color: #222; }
   .container { max-width: 860px; margin: 0 auto; padding: 48px 24px; }
   h1 { font-size: 1.6rem; font-weight: 600; color: #111; margin-bottom: 4px; }
-  .subtitle { font-size: 0.85rem; color: #666; margin-bottom: 36px; }
+  .subtitle { font-size: 0.85rem; color: #666; margin-bottom: 20px; }
   .subtitle span { background: #e8f0fe; color: #1a56c4; padding: 2px 8px; border-radius: 3px; font-size: 0.78rem; margin-right: 6px; }
+  .info-box { background: #fff; border-left: 4px solid #1a56c4; border-radius: 6px; padding: 14px 18px; margin-bottom: 28px; font-size: 0.88rem; color: #444; line-height: 1.6; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
   table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
   thead tr { background: #1a56c4; color: #fff; }
   th { padding: 13px 16px; text-align: left; font-size: 0.82rem; font-weight: 600; letter-spacing: 0.03em; }
   td { padding: 13px 16px; font-size: 0.88rem; border-bottom: 1px solid #eee; }
   tr:last-child td { border-bottom: none; }
   tr:hover td { background: #f9faff; }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
-  .badge-ok { background: #e6f4ea; color: #1e7e34; }
-  .badge-dg { background: #fdecea; color: #c0392b; }
   .btn { display: inline-block; padding: 6px 14px; background: #1a56c4; color: #fff; text-decoration: none; border-radius: 5px; font-size: 0.8rem; font-weight: 500; transition: background 0.15s; }
   .btn:hover { background: #1443a0; }
   .footer { margin-top: 32px; font-size: 0.78rem; color: #999; text-align: center; }
@@ -35,10 +33,15 @@
     Revision: May 2026
   </p>
 
+  <div class="info-box">
+    This page provides Safety Data Sheets (SDS) for all essential oils included in the current shipment, prepared in accordance with REACH Regulation (EC) No 1907/2006 Annex II and Regulation (EU) 2020/878. All documents are available for download below.
+  </div>
+
   <table>
     <thead>
       <tr>
         <th>Essential Oil</th>
+        <th>Botanical Name</th>
         <th>CAS No.</th>
         <th>Flash Point</th>
         <th>Download</th>
@@ -46,39 +49,72 @@
     </thead>
     <tbody>
       <tr>
-        <td><strong>Lavender Oil</strong><br><span style="color:#888;font-size:0.8rem;">Lavandula angustifolia</span></td>
-        <td>8000-28-0</td>
-        <td>&gt; 70 °C</td>
-        <td><a class="btn" href="SDS_Lavender_Oil_2026.pdf">↓ SDS</a></td>
+        <td><strong>Citronella Oil</strong></td>
+        <td style="color:#888;font-size:0.82rem;">Cymbopogon nardus</td>
+        <td>8000-29-1</td>
+        <td>93 °C</td>
+        <td><a class="btn" href="SDS_Citronella_Oil_2026.pdf">↓ SDS</a></td>
       </tr>
       <tr>
-        <td><strong>Eucalyptus Oil</strong><br><span style="color:#888;font-size:0.8rem;">Eucalyptus globulus</span></td>
-        <td>8000-48-4</td>
-        <td>49 °C</td>
-        <td><a class="btn" href="SDS_Eucalyptus_Oil_2026.pdf">↓ SDS</a></td>
-      </tr>
-      <tr>
-        <td><strong>Clove Oil</strong><br><span style="color:#888;font-size:0.8rem;">Syzygium aromaticum</span></td>
+        <td><strong>Clove Oil</strong></td>
+        <td style="color:#888;font-size:0.82rem;">Syzygium aromaticum</td>
         <td>8000-34-8</td>
         <td>&gt; 70 °C</td>
         <td><a class="btn" href="SDS_Clove_Oil_2026.pdf">↓ SDS</a></td>
       </tr>
       <tr>
-        <td><strong>Tea Tree Oil</strong><br><span style="color:#888;font-size:0.8rem;">Melaleuca alternifolia</span></td>
+        <td><strong>Eucalyptus Oil</strong></td>
+        <td style="color:#888;font-size:0.82rem;">Eucalyptus globulus</td>
+        <td>8000-48-4</td>
+        <td>105 °C</td>
+        <td><a class="btn" href="SDS_Eucalyptus_Oil_2026.pdf">↓ SDS</a></td>
+      </tr>
+      <tr>
+        <td><strong>Geraniol</strong></td>
+        <td style="color:#888;font-size:0.82rem;">Pelargonium graveolens</td>
+        <td>106-24-1</td>
+        <td>76 °C</td>
+        <td><a class="btn" href="SDS_Geraniol_2026.pdf">↓ SDS</a></td>
+      </tr>
+      <tr>
+        <td><strong>Lavender Oil</strong></td>
+        <td style="color:#888;font-size:0.82rem;">Lavandula angustifolia</td>
+        <td>8000-28-0</td>
+        <td>&gt; 70 °C</td>
+        <td><a class="btn" href="SDS_Lavender_Oil_2026.pdf">↓ SDS</a></td>
+      </tr>
+      <tr>
+        <td><strong>Peppermint Oil</strong></td>
+        <td style="color:#888;font-size:0.82rem;">Mentha piperita</td>
+        <td>8006-90-4</td>
+        <td>75 °C</td>
+        <td><a class="btn" href="SDS_Mint_Oil_2026.pdf">↓ SDS</a></td>
+      </tr>
+      <tr>
+        <td><strong>Palmarosa Oil</strong></td>
+        <td style="color:#888;font-size:0.82rem;">Cymbopogon martinii</td>
+        <td>8014-19-9</td>
+        <td>&gt; 90 °C</td>
+        <td><a class="btn" href="SDS_Palmarosa_Oil_2026.pdf">↓ SDS</a></td>
+      </tr>
+      <tr>
+        <td><strong>Polysorbate 80</strong></td>
+        <td style="color:#888;font-size:0.82rem;">Polyoxyethylene sorbitan monooleate</td>
+        <td>9005-65-6</td>
+        <td>&gt; 200 °C</td>
+        <td><a class="btn" href="SDS_Polysorbate80_2026.pdf">↓ SDS</a></td>
+      </tr>
+      <tr>
+        <td><strong>Tea Tree Oil</strong></td>
+        <td style="color:#888;font-size:0.82rem;">Melaleuca alternifolia</td>
         <td>68647-73-4</td>
         <td>54 °C</td>
         <td><a class="btn" href="SDS_TeaTree_Oil_2026.pdf">↓ SDS</a></td>
       </tr>
-      <tr>
-        <td><strong>Peppermint Oil</strong><br><span style="color:#888;font-size:0.8rem;">Mentha piperita</span></td>
-        <td>8006-90-4</td>
-        <td>&gt; 70 °C</td>
-        <td><a class="btn" href="SDS_Mint_Oil_2026.pdf">↓ SDS</a></td>
-      </tr>
     </tbody>
   </table>
 
-  <p class="footer">Safety Data Sheets prepared in accordance with REACH Regulation (EC) No 1907/2006 Annex II and Regulation (EU) 2020/878.</p>
+  <p class="footer">Safety Data Sheets prepared in accordance with REACH Regulation (EC) No 1907/2006 Annex II and Regulation (EU) 2020/878. · May 2026</p>
 </div>
 </body>
 </html>
